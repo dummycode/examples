@@ -3,7 +3,7 @@
 
 #define MAX 100
 
-int main() {
+int main(int argc, char *argv[]) {
 	char input[MAX] = "String";
 	printf("Input: ");
 	fgets(input, sizeof input, stdin);

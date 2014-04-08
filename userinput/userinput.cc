@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #define MAX 100
-int main() {
+int main(int argc, char *argv[]) {
 	std::cout << "Input: ";
 	char input[MAX];
 	std::cin.getline(input, MAX);
